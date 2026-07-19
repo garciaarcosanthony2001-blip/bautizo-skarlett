@@ -73,3 +73,28 @@ button {
         transform: translateY(0);
     }
 }
+.destello {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: #d4af37;
+    border-radius: 50%;
+    animation: flotar 6s infinite;
+    opacity: 0.7;
+}
+
+@keyframes flotar {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-20vh);
+        opacity: 0;
+    }
+}
