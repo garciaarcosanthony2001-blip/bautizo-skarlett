@@ -98,3 +98,19 @@ button {
         opacity: 0;
     }
 }
+.versiculo {
+    margin: 30px auto;
+    max-width: 320px;
+    padding: 20px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 20px;
+    font-style: italic;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.versiculo span {
+    display: block;
+    margin-top: 10px;
+    color: #b8860b;
+    font-weight: bold;
+}
