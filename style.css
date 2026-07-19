@@ -170,25 +170,3 @@ button {
         opacity: 1;
     }
 }
-#invitacion {
-    text-align: center;
-}
-
-#invitacion > * {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#invitacion .botones {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#invitacion #contador {
-    text-align: center;
-}
-
-#invitacion .versiculo {
-    text-align: center;
-}
