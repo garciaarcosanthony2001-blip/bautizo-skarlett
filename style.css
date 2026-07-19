@@ -114,3 +114,40 @@ button {
     color: #b8860b;
     font-weight: bold;
 }
+.foto-portada {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #d4af37;
+    box-shadow: 0 0 35px rgba(212,175,55,0.8);
+    animation: entradaFoto 2.5s ease;
+}
+
+.frase {
+    max-width: 320px;
+    margin: 20px auto;
+    font-style: italic;
+    color: #8a641f;
+}
+
+.inicio h1 {
+    animation: aparecer 2s ease;
+}
+
+.inicio h2 {
+    color: #b8860b;
+    animation: aparecer 2.5s ease;
+}
+
+@keyframes entradaFoto {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
