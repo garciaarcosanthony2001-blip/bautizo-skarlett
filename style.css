@@ -170,3 +170,27 @@ button {
         opacity: 1;
     }
 }
+#invitacion {
+    text-align: center;
+}
+
+#invitacion p,
+#invitacion h1,
+#invitacion h2,
+#invitacion h3,
+#invitacion img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#invitacion img {
+    max-width: 90%;
+}
+
+#invitacion button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
