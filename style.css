@@ -245,3 +245,11 @@ button {
         transform:translateY(110vh) rotate(360deg);
     }
 }
+button{
+    transition:.35s;
+}
+
+button:hover{
+    transform:scale(1.06);
+    box-shadow:0 0 25px rgba(212,175,55,.7);
+}
