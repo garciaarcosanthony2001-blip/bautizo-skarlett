@@ -208,3 +208,22 @@ button {
     padding:35px;
     box-shadow:0 15px 45px rgba(0,0,0,.15);
 }
+#contador{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin:35px 0;
+}
+
+#contador span{
+    display:block;
+    width:75px;
+    background:white;
+    padding:15px;
+    border-radius:20px;
+    font-size:28px;
+    font-weight:bold;
+    color:#b8860b;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
