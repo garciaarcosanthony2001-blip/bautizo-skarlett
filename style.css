@@ -253,3 +253,14 @@ button:hover{
     transform:scale(1.06);
     box-shadow:0 0 25px rgba(212,175,55,.7);
 }
+.foto{
+    width:260px;
+    height:260px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #d4af37;
+    box-shadow:0 0 35px rgba(212,175,55,.8);
+    margin:25px auto;
+    display:block;
+    animation:entradaFoto 2s ease;
+}
