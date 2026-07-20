@@ -43,3 +43,20 @@ setInterval(function() {
     document.getElementById("segundos").innerHTML = segundos;
 
 }, 1000);
+for(let i=0;i<18;i++){
+
+    let petalo=document.createElement("div");
+
+    petalo.className="petalo";
+
+    petalo.innerHTML="🤍";
+
+    petalo.style.left=Math.random()*100+"vw";
+
+    petalo.style.animationDuration=(8+Math.random()*8)+"s";
+
+    petalo.style.animationDelay=Math.random()*6+"s";
+
+    document.body.appendChild(petalo);
+
+}
