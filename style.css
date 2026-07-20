@@ -227,3 +227,21 @@ button {
     color:#b8860b;
     box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
+.petalo{
+    position:fixed;
+    top:-60px;
+    font-size:22px;
+    opacity:.8;
+    pointer-events:none;
+    animation:caer linear infinite;
+    z-index:0;
+}
+
+@keyframes caer{
+    0%{
+        transform:translateY(-50px) rotate(0deg);
+    }
+    100%{
+        transform:translateY(110vh) rotate(360deg);
+    }
+}
