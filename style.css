@@ -229,16 +229,34 @@ button {
     margin:35px 0;
 }
 
-#contador span{
-    display:block;
-    width:75px;
+.contador-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:18px;
+    max-width:340px;
+    margin:20px auto;
+}
+
+.tiempo{
     background:white;
-    padding:15px;
     border-radius:20px;
-    font-size:28px;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+}
+
+.tiempo span{
+    display:block;
+    font-size:38px;
     font-weight:bold;
     color:#b8860b;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.tiempo small{
+    display:block;
+    margin-top:8px;
+    font-size:16px;
+    color:#7b5a16;
 }
 .petalo{
     position:fixed;
