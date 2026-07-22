@@ -43,7 +43,7 @@ setInterval(function() {
     document.getElementById("segundos").innerHTML = segundos;
 
 }, 1000);
-for(let i=0;i<18;i++){
+for(let i=0;i<10;i++){
 
     let petalo=document.createElement("div");
 
