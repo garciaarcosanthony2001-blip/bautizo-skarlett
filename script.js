@@ -49,8 +49,7 @@ for(let i=0;i<10;i++){
 
     petalo.className="petalo";
 
-    const flores=["🌸","🌺","🌼"];
-petalo.innerHTML=flores[Math.floor(Math.random()*flores.length)];
+    petalo.innerHTML="🌸";
 
     petalo.style.left=Math.random()*100+"vw";
 
